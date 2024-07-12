@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="sign.css">
+<link rel="stylesheet" href="sign.js">
+    </head>
+    <body>
+        <form name="myform" onsubmit="return test()" action="null.htm">
+            <label name="name" for="fn">name</label>
+            <input type="text" name="fnn" id="fn"><br><br>
+            <label name="pass" for="ps">password</label>
+            <input type="password" name="pss" id="ps"><br><br>
+            <input type="submit" value="submit">
+        </form>
+        <script>
+            function  test(){
+                var narr=["asmaam","asmaar"];
+                var parr=["0100","3000"];
+                var name=document.forms["myform"]["fnn"].value;
+                var pass=document.forms["myform"]["pss"].value;
+                for (var i = 0; i<2; i++) {
+                    if((name==narr[i])&&(pass==parr[i]))
+                
+                    return true;
+                    else if(name=="" ||pass==""){
+                    alert("name or password is empty");
+                    return false;
+                                }
+                    
+                            }
+        return false;
+            }
+        </script>
+    </body>
+</html>

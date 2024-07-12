@@ -1,0 +1,113 @@
+div.em{
+    background-color: white;
+    text-align:right;
+    width: 650px;
+    height: 110px;
+   margin: 3px 400px;
+   border-radius: 10px;
+
+}
+body{
+    background-color: rgb(164, 231, 228);
+}
+div.city{
+    background-color: white;
+    text-align:right;
+    width: 650px;
+    height:180px;
+   margin: 3px 400px;
+   border-radius: 10px; 
+}
+.name{
+    background-color: white;
+    text-align:right;
+    width: 650px;
+    height:110px;
+   margin: 3px 400px;
+   border-radius: 10px; 
+}
+.how{
+    background-color: white;
+    text-align:right;
+    width: 650px;
+    height:110px;
+   margin: 3px 400px;
+   border-radius: 10px;
+}
+.phone{
+    background-color: white;
+    text-align:right;
+    width: 650px;
+    height:110px;
+   margin: 3px 400px; 
+   border-radius: 10px;
+}
+.exper{
+    background-color: white;
+    text-align:right;
+    width: 650px;
+    height:200px;
+   margin: 3px 400px;
+   border-radius: 10px; 
+}
+p{
+padding: 20px 20px 0px 0px;
+}
+input{
+border-left:none ;
+border-top:none ;
+border-right:none ;
+border-bottom: grey solid;
+text-align:center;
+outline-style:none;
+
+}
+input:hover{
+    border-bottom: rgb(81, 115, 187) solid;
+
+
+    }
+    img{
+        width: 650px;
+        height: 200px;
+         margin-left: 400px;
+    }
+    .s{
+        background-color: white;
+        text-align:right;
+        width: 650px;
+        height:250px;
+       margin: 3px 400px;
+       border-radius: 10px; 
+    }
+select{
+    width: 100px;
+    height: 50px;
+
+}
+.re{
+    background-color:rgb(164, 231, 228) ;
+    border:none;
+    float: left;
+    color:blue;
+    font-size: 15px;
+    
+}
+.su{
+    float:right;
+    color: white;
+    border: 3px solid royalblue;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 300px;
+    width: 60px;
+    height: 40px;
+}
+.su:hover{
+    background-color: slateblue;
+    color:white;
+
+}

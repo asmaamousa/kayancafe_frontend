@@ -1,0 +1,99 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+    <img src="mm.jpeg">
+    <div class="em">
+      <form>
+        <p>*عنوان بريد إلكترونى </p>
+    <input style="width: 300px;height: 30px;" type="email " required    placeholder="بريدك الالكترونى"  rounded>
+    </div>
+    <div class="city">
+        <p>*المدينة أو المحافظة المطلوبة   </p>
+        <p>يمكنك كتابة المنطقة والمدينة // مثلاُ : منطقة مكة المكرمة - جدة // أو الإكتفاء بأسم المدينة أو المحافظة فقط</p>
+    <input style="width: 300px;height: 30px;" type="text " required    placeholder="اجابتك" >
+    </div>
+    <div class="city">
+        <p>* مدينة بديلة في حالة عدم توفر فرصة بالمدينة المطلوبة </p>
+        <p>مكنك كتابة المنطقة والمدينة // مثلاُ : منطقة مكة المكرمة - جدة // أو الإكتفاء بأسم المدينة أو المحافظة فقط مع وضع خط (-) لو لديكم أكثر من خيار بديل
+        </p>
+    <input  style="width: 600px;height: 30px;"type="text "  placeholder="اجابتك" >
+    </div>
+    <div class="name">
+        <p>الأسم الكريم أو اسم الشركة *</p>  
+    <input style="width: 300px;height: 30px;" type="text " required    placeholder="اجابتك" >
+    </div>
+    <div class="exper">
+       
+        <p>* (هل لديكم خبرة في مشاريع مشابهة ( كوفي شوب - مطاعم </p>
+        <div>
+            <label for="o" > نعم لدي خبرة في الكوفي شوب من خلال مشروع تحت إدارتنا</label>
+    <input id="o"  type="radio"  name="a" value="نعم لدي خبرة في الكوفي شوب من خلال مشروع تحت إدارتنا" >
+   
+</div>
+<div>
+    <label for="u">نعم لدي خبرة في الكوفي شوب من خلال علمي في كوفي شوب</label>
+    <input id="u" type="radio" name="a" value="نعم لدي خبرة في الكوفي شوب من خلال علمي في كوفي شوب">
+    
+</div>
+<div>
+    <label for="j" >لدينا مشاريع تجارية أخرى قائمة الآن</label>
+    <input  id="j" type="radio" name="a" value="لدينا مشاريع تجارية أخرى قائمة الآن">
+
+    
+</div>
+<div>
+    <label for="n">لدينا مشاريع تجارية أخرى سابقة</label>
+    <input  id="n"  type="radio" name="a" value="لدينا مشاريع تجارية أخرى سابقة">
+
+    
+</div>
+
+<div>
+    <labe for="no">ليس لدي خبرة أو مشروع تجاري ولكن أرغب ببداية عملي التجاري من خلال إمتياز كوفي شوب كيان</labe>
+    <input  id= "no"   type="radio" name="a" value="ليس لدي خبرة أو مشروع تجاري ولكن أرغب ببداية عملي التجاري من خلال إمتياز كوفي شوب كيان">
+</div>
+
+<div>
+    <input style="width: 500px;height: 30px;" type="text" >
+    <labe for="oth" >:خرى</labe>
+    <input id="oth"  type="radio" name="a" value=":اخرى">
+    
+</div>
+    </div>
+    <div class="s">
+        <input style="width: 500px;height: 30px;" type="text" >
+        <p>*توقعاتك لمبلغ التكاليف الإجمالية لإنشاء مشروع كوفي شوب كيان</p>
+        <p>نقصد بالتكاليف الإجمالية = رسوم الإمتياز التجاري + جميع التكاليف المطلوبة لإنشاء المشرروع بداية من مبلغ الإيجار حتى مبلغ البضاعة الإفتتاحية المطلوبة ( تقريباً )</p>
+        
+      <select required>
+        <option > اختيار</option>
+        <hr>
+<option value="300.000 to 500.000 " >300.000 to 800.000 </option>
+<option value="500.000 to 800.000 ">5000.000 to 800.000 </option>
+<option value="800.000 to 1000.000 ">800.000 to 1000.000 </option>
+
+      </select>
+        
+    </div>
+<div class="how">
+    <p>كيف عرفت كيان؟</p>
+<input style="width: 300px;height: 30px;" type="text "   placeholder="اجابتك" >
+</div>
+</div>
+<div class="phone">
+    <p>رقم التواصل ( جوال ) * </p>
+<input style="width: 300px;height: 30px;" type="number "   placeholder="اجابتك" >
+
+
+</div>
+<input type="submit" value="ارسال" style="background-color:royalblue" class="su">
+<input type="reset" value="محو النموذج" class="re">
+</form>
+</body>
+</html>
